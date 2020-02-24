@@ -1,0 +1,24 @@
+/*
+* rzvy
+* Online Multi Business Appointment Scheduling & Reservation Booking Calendar
+*/
+#rzvy-main-menu-collapse{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#rzvy-main-menu-collapse .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+	color: #fff !important;
+	background-color: #e94949 !important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+#rzvy-main-menu-collapse .navbar-collapse .navbar-nav .nav-item .nav-link.rzy_active{
+	color: #fff !important;
+	background-color: #e94949 !important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
+}
+
+#rzvy-main-menu-collapse .navbar-collapse .navbar-nav .nav-item .nav-link-no-hover:hover{
+	color: unset;
+	background-color: unset;
+	cursor: pointer;
+	box-shadow: unset;
+}

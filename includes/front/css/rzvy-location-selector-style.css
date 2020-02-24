@@ -1,0 +1,448 @@
+/** Rezervy - Online Appointment Scheduling & Reservation Booking Calendar **/
+@import url("../../font/montserrat.css");
+.rzvy header,
+.rzvy nav,
+.rzvy section {
+    display: block
+}
+
+[hidden] {
+    display: none
+}
+
+html {
+    font-family: 'Montserrat', sans-serif !important;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body.rzvy {
+    margin: 0;
+	background: #9087ba;
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.rzvy a:focus {
+    outline: thin dotted
+}
+
+.rzvy a:active,
+.rzvy a:hover {
+    outline: 0
+}
+
+.rzvy h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+.rzvy b,
+.rzvy strong {
+    font-weight: 700
+}
+
+.rzvy hr {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+.rzvy img {
+    border: 0
+}
+
+.rzvy button,
+.rzvy input,
+.rzvy select,
+.rzvy textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0
+}
+
+.rzvy button,
+.rzvy input {
+    line-height: normal
+}
+
+.rzvy button,
+.rzvy select {
+    text-transform: none
+}
+
+.rzvy button,
+.rzvy  input[type=button],
+.rzvy input[type=reset],
+i.rzvy nput[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+.rzvy button[disabled],
+.rzvy  input[disabled] {
+    cursor: default
+}
+
+.rzvy input[type=checkbox],
+.rzvy input[type=radio] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0
+}
+
+.rzvy button::-moz-focus-inner,
+.rzvy input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+.rzvy textarea {
+    overflow: auto;
+    vertical-align: top
+}
+
+.rzvy h1 {
+    font-size: 72px;
+    color: #fff
+}
+
+@media(max-width:992px) {
+    .rzvy h1 {
+        font-size: 52px
+    }
+}
+
+@media(max-width:576px) {
+    .rzvy h1 {
+        font-size: 40px
+    }
+}
+
+.rzvy h2 {
+    font-size: 20px; /*58px*/
+    color: #3f4b5e;
+}
+
+@media(max-width:576px) {
+    .rzvy h2 {
+        font-size: 15px; /*34px*/
+    }
+}
+
+.rzvy h3 {
+    font-size: 35px;
+    color: #3f4b5e
+}
+
+@media(max-width:768px) {
+    .rzvy h3 {
+        font-size: 27px
+    }
+}
+
+.rzvy h4 {
+    font-size: 24px;
+    color: #3f4b5e
+}
+
+.rzvy h5 {
+    font-size: 22px
+}
+
+.rzvy h6 {
+    font-size: 18px
+}
+
+.rzvy p {
+    font-size: 15px;
+    color: #3d3d3d
+}
+
+.rzvy-main-block-before {
+    padding: 20px 0
+}
+
+.rzvy-center-block h2 {
+    text-align: center;
+    color: #3f4b5e;
+    margin: 0 0 30px
+}
+
+.rzvy-center-block h2 span {
+    color: #45c3d3;
+    border-bottom: 3px solid #45c3d3
+}
+
+.rzvy-center-block h6 {
+    text-align: center;
+    color: #3d3d3d;
+    font-weight: 300;
+    margin: 10px auto 0;
+    line-height: 1.6
+}
+
+@media(max-width:992px) {
+    .rzvy-center-block h6 {
+        width: 70%
+    }
+}
+
+@media(max-width:576px) {
+    .rzvy-center-block h6 {
+        width: 100%
+    }
+}
+
+.rzvy-booking-detail-block {
+    background: #9087ba
+}
+
+.rzvy-booking-detail-block h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0
+}
+
+.rzvy-booking-detail-block h6 {
+    margin: 10px auto 0
+}
+
+.rzvy-set-sm-fit {
+    width: 100%
+}
+
+@media(max-width:992px) {
+    .rzvy-set-sm-fit {
+        max-width: 100%;
+        -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+        flex: 100%
+    }
+}
+
+.rzvy_location_selector_container_bg{
+    background: #fff;
+    padding: 1px 40px
+}
+
+.rzvy-booking-detail-main {
+    background: #fff;
+    padding: 28px 40px 1px 40px
+}
+
+/* Custom CSS */
+.rzvy-block-btn {
+    background: #422f8f;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+    -webkit-appearance: none!important;
+    border: 0
+}
+
+.rzvy-block-btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0
+}
+
+.rzvy-block-btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #251857;
+}
+
+.rzvy-block-btn span {
+    margin-right: 10px
+}
+
+@media(max-width:480px) {
+    .rzvy-block-btn {
+        font-size: 18px
+    }
+}
+.rzvy .rzvy-companytitle{
+	font-size:xx-large;
+	color: #9087ba;
+	cursor: pointer;
+}
+.rzvy .rzvy-companylogo{
+	height: 100px;
+}
+
+/** Loader CSS START **/
+.rzvy_hide_loader{
+	display:none;
+}
+.rzvy_show_loader{
+	display:none;
+}
+#rzvy-loader-overlay{
+    position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	background-color: #000000;
+	opacity: .5;
+}
+#rzvy-loader {
+    bottom: 0;
+    height: 250px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: -20%;
+    width: 250px;
+	z-index: 999999;
+}
+#rzvy-loader .rzvy-loader-dot {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 120px;
+}
+#rzvy-loader .rzvy-loader-dot::before {
+    border-radius: 100%;
+    content: "";
+    height: 120px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(0);
+    width: 120px;
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+1) {
+    transform: rotate(45deg);
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+1)::before {
+    animation: 0.8s linear 0.1s normal none infinite running rzvy-loader-load;
+    background: #FFFFFF none repeat scroll 0 0;
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+2) {
+    transform: rotate(90deg);
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+2)::before {
+    animation: 0.8s linear 0.2s normal none infinite running rzvy-loader-load;
+    background: #FFFFFF none repeat scroll 0 0;
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+3) {
+    transform: rotate(135deg);
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+3)::before {
+    animation: 0.8s linear 0.3s normal none infinite running rzvy-loader-load;
+    background: #FFFFFF none repeat scroll 0 0;
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+4) {
+    transform: rotate(180deg);
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+4)::before {
+    animation: 0.8s linear 0.4s normal none infinite running rzvy-loader-load;
+    background: #FFFFFF none repeat scroll 0 0;
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+5) {
+    transform: rotate(225deg);
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+5)::before {
+    animation: 0.8s linear 0.5s normal none infinite running rzvy-loader-load;
+    background: #FFFFFF none repeat scroll 0 0;
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+6) {
+    transform: rotate(270deg);
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+6)::before {
+    animation: 0.8s linear 0.6s normal none infinite running rzvy-loader-load;
+    background: #FFFFFF none repeat scroll 0 0;
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+7) {
+    transform: rotate(315deg);
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+7)::before {
+    animation: 0.8s linear 0.7s normal none infinite running rzvy-loader-load;
+    background: #FFFFFF none repeat scroll 0 0;
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+8) {
+    transform: rotate(360deg);
+}
+#rzvy-loader .rzvy-loader-dot:nth-child(7n+8)::before {
+    animation: 0.8s linear 0.8s normal none infinite running rzvy-loader-load;
+    background: #FFFFFF none repeat scroll 0 0;
+}
+#rzvy-loader .rzvy-loader-loading {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    bottom: -40px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 180px;
+}
+@keyframes rzvy-loader-load {
+	100% {
+		opacity: 0;
+		transform: scale(1);
+	}
+}
+@keyframes rzvy-loader-load {
+	100% {
+		opacity: 0;
+		transform: scale(1);
+	}
+}
+/** Loader CSS END **/
+
+.rzvy-location-selector-bg {
+	background-color: #e94949;
+}
+.rzvy-location-selector-bg {
+	background-image: url("../images/location-selector-bg.jpeg");
+	/* filter: blur(8px);
+	-webkit-filter: blur(8px); */
+	padding: 28px 40px;
+	height: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/** search box css **/
+.rzvy-form-control-borderless {
+    border: none;
+}
+
+.rzvy-form-control-borderless:hover, .rzvy-form-control-borderless:active, .rzvy-form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.rzvy-footer-bg{
+	background-color: #422f8f !important;
+}
+
+#rzvy_location_selector_form .card.card-sm{
+	width: 40%;
+}
+
+@media(max-width:480px) {
+    #rzvy_location_selector_form .card.card-sm{
+        width: 100%;
+    }
+}
+.rzvy-header-style { padding: 0px 20px; background: #fff; border-top: 5px solid #9087ba; border-bottom: 5px solid #9087ba; } .rzvy-header-style a{ color: #422f8f; font-size: large; text-decoration: underline; display: inline-block; }

@@ -1,0 +1,166 @@
+/*!
+ * CSS FOR INSTALLATION INSTRUCTION PAGE
+ * By: rzvy
+ */
+ /*
+* Online Multi Business Appointment Scheduling & Reservation Booking Calendar
+*/
+
+body {
+  font-family: 'Lato';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+
+.rzvy-bg-black {
+  background-color: #000 !important;
+}
+
+header.rzvy-main-header {
+  position: relative;
+  overflow: hidden;
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
+  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.rzvy-main-header .rzvy-main-header-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.rzvy-main-header .rzvy-main-header-content .rzvy-main-header-heading {
+  font-size: 4rem;
+}
+
+header.rzvy-main-header .rzvy-main-header-content .rzvy-main-header-subheading {
+  font-size: 2rem;
+}
+
+header.rzvy-main-header .rzvy-bg-header-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
+  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+}
+
+header.rzvy-main-header .rzvy-bg-header-circle-1 {
+  height: 90rem;
+  width: 90rem;
+  bottom: -55rem;
+  left: -55rem;
+}
+
+header.rzvy-main-header .rzvy-bg-header-circle-2 {
+  height: 50rem;
+  width: 50rem;
+  top: -25rem;
+  right: -25rem;
+}
+
+header.rzvy-main-header .rzvy-bg-header-circle-3 {
+  height: 20rem;
+  width: 20rem;
+  bottom: -10rem;
+  right: 5%;
+}
+
+header.rzvy-main-header .rzvy-bg-header-circle-4 {
+  height: 30rem;
+  width: 30rem;
+  top: -5rem;
+  right: 35%;
+}
+
+@media (min-width: 992px) {
+  header.rzvy-main-header {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.rzvy-main-header .rzvy-main-header-content .rzvy-main-header-heading {
+    font-size: 6rem;
+  }
+  header.rzvy-main-header .rzvy-main-header-content .rzvy-main-header-subheading {
+    font-size: 4rem;
+  }
+}
+
+.rzvy-logo-img img{
+	padding-bottom: 5%;
+}
+
+.rzvy-main-section-bg{
+	background-color: antiquewhite;
+}
+/*******************************************************************************/
+/*******************************************************************************/
+.rzvy-instruction-steps {
+	margin-bottom: 60px;
+	position: relative;
+}
+.rzvy-instruction-steps-main {
+	position: absolute;
+	top: 217px;
+	left: -355px;
+	background: #f6f6f6;
+	width: 544px;
+	height: 110px;
+	transform: rotate(-90deg);
+	border-radius: 50px;
+	box-shadow: 0px 2px 11px -2px rgba(0,0,0,0.4);
+}
+.rzvy-instruction-steps-main h4 {
+	font-size: 54px;
+	padding-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color:#ff6a00;
+	font-weight: 800;
+}
+.rzvy-bg-theme {
+	color: #ee0979;
+}
+.rzvy-instruction-steps .panel {
+	border-radius: 60px;
+	/* border-bottom-left-radius: 60px; */
+	color:#fff;
+	font-size: 16px;
+	background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
+	background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+	box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.4);
+	margin-bottom:15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.rzvy-instruction-steps .panel span,
+.rzvy-instruction-steps .panel:hover span  {
+	-webkit-transition: all ease-out 0.3s;
+	-moz-transition: all ease-out 0.3s;
+	-o-transition: all ease-out 0.3s;
+	transition: all ease-out 0.3s;
+}
+.rzvy-instruction-steps .panel-body {
+	height: auto;
+}
+.rzvy-instruction-steps .panel:nth-child(even) span {
+	color: #ff6a00;
+}
+.rzvy-instruction-steps .rzvy-instruction-steps-heading {
+	font-size: 28px;
+	margin-top: 0px;
+	padding-top:15px;
+}
